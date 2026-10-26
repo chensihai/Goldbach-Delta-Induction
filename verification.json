@@ -1,0 +1,52 @@
+{
+  "all_checks_passed": true,
+  "lean_build": "Build completed successfully (3016 jobs).",
+  "checked_theorems": [
+    "GoldbachDeltaInduction.representation_crosses_gap",
+    "GoldbachDeltaInduction.goldbach_iff_anchor",
+    "GoldbachDeltaInduction.goldbach_iff_odd_anchor",
+    "GoldbachDeltaInduction.central_goldbach",
+    "GoldbachDeltaInduction.residue_in_interval",
+    "GoldbachDeltaInduction.periodic_bound_iff",
+    "GoldbachDeltaInduction.prime_screened",
+    "GoldbachDeltaInduction.screened_complement_iff",
+    "GoldbachDeltaInduction.prime_complement_allowed",
+    "GoldbachDeltaInduction.bounded_sieve_bound_iff",
+    "GoldbachDeltaInduction.high_capacity_realized",
+    "GoldbachDeltaInduction.residue_count_error",
+    "GoldbachDeltaInduction.goldbach_iff_symmetric",
+    "GoldbachDeltaInduction.endpoint_symmetric_pair",
+    "GoldbachDeltaInduction.symmetric_pair_crosses_gap",
+    "GoldbachDeltaInduction.gap_delta_lower_bound",
+    "GoldbachDeltaInduction.shorter_central_offset_not_adjacent",
+    "GoldbachDeltaInduction.central_offset_minimal",
+    "GoldbachDeltaInduction.noncentral_offset_gt_half_gap",
+    "GoldbachDeltaInduction.cousin_centers_differ"
+  ],
+  "axiom_output": "'GoldbachDeltaInduction.representation_crosses_gap' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.goldbach_iff_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.goldbach_iff_odd_anchor' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.central_goldbach' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.residue_in_interval' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.periodic_bound_iff' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.prime_screened' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.screened_complement_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.prime_complement_allowed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.bounded_sieve_bound_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.high_capacity_realized' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.residue_count_error' depends on axioms: [propext, Classical.choice, Quot.sound]\n'GoldbachDeltaInduction.goldbach_iff_symmetric' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.endpoint_symmetric_pair' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.symmetric_pair_crosses_gap' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.gap_delta_lower_bound' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.shorter_central_offset_not_adjacent' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.central_offset_minimal' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.noncentral_offset_gt_half_gap' depends on axioms: [propext, Quot.sound]\n'GoldbachDeltaInduction.cousin_centers_differ' depends on axioms: [propext, Classical.choice, Quot.sound]",
+  "finite_cases": 16,
+  "finite_protected_states": 21,
+  "finite_tree_nodes": 748,
+  "gbr54_search": {
+    "max_p": 100000,
+    "intervals": 8367,
+    "reachable_states": 158400
+  },
+  "gbr54_independent_intervals": 255,
+  "gbr54_counting_intervals": 26040,
+  "gbr55_historical_rows": 1906977,
+  "scope": "Listed structural Lean theorems and explicitly scoped GB-R53/54/55 checks; Goldbach remains open.",
+  "sha256": {
+    "Checks.lean": "3ea5111bc96edda90dc5ec30a49de91fdc84af2dd4599d91dff0150a91a270e8",
+    "GoldbachDeltaInduction/Basic.lean": "f0a3e5164f021061cab205260205fe1e798106629bb1197de10a253fe99e2548",
+    "GoldbachDeltaInduction/DeltaGap.lean": "f23990064cdb7de4c204ff8f20ce77fe068e13ef0ffed249b98086b1d8e6ca6a",
+    "GoldbachDeltaInduction/IntervalResidues.lean": "92f69978f0108777c92c7554cac557e036468b23c760770d2712fa82f139f34a",
+    "GoldbachDeltaInduction/PeriodicCapacity.lean": "6d3e69c7949a4ee2a8be859b40a8368cac5da6f64efc4c1b5ae93dbf4c9ebf34",
+    "GoldbachDeltaInduction/SieveCapacity.lean": "f63f0923556d2829b2532f6fe839d7e8be30bbfcdaa7cef0adcc40871ffab028",
+    "GoldbachDeltaInduction.lean": "bbf36e99ce1d1233439e8f0a1d479e3ecae917ec846d6996b9bb48e903344597",
+    "lake-manifest.json": "dc5981937386924e47fcc6163fb7b456270c91c64b7a7960e62a6ea2e864bfde",
+    "lakefile.toml": "f9d1716cd7d4c25df183cfd4d97a8534af72fa06baf400e2a1437547c67e57a3",
+    "lean-toolchain": "cdbc6c372a2b37ad94430a6cec69cedfa4d36f255bfd968773fd91bf7a1746bf",
+    "verify_project.py": "60c2c39dfaf0574349753b087d643a99d1b1299c3b9bc2d086ce05390c82de42"
+  }
+}

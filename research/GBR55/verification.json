@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "historical_rows": 1906977,
+  "adjacent_rows": 1639025,
+  "scope": "Consistency and source hashes; does not rerun the full prime sieve",
+  "sha256": {
+    "audit_historical_scan.py": "d121269b616b1c87335e96a1efd20774addad32bc082adf3ef3f0e285f218bbf",
+    "verify.py": "5711694dabcd6a7986defbe4f2e33bd696dd44dcbb0c5976484bdca1caadbc67",
+    "historical_scan_audit.json": "3546e1fda283a4a1d2d4ae01cd0a630abaf0f1fa96dadbda41f0f78d994b0015",
+    "reference/Delta_Basic.lean": "a88fef4d3efa63c9f9f5c948dd5ba1de3ea09d828ce8388ee83fa3d039e734a4",
+    "reference/Delta_Delta.lean": "6b4cbec6e78c89f26357947a516d82d1f244ec39f544e293f2da9d661e62644c",
+    "reference/delta_scan_for_p_k_scan_center_pk.cpp": "b3941d7dbc0beaed01d90457c0685983d901765e03a923f4a6ac1873bcbfea4a"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "all_checks_passed": true,
+  "checked_intervals": 26040,
+  "forbidden_systems": 651,
+  "thresholds": [
+    {
+      "z": 7,
+      "h": 1,
+      "period": 210,
+      "density": "1/14",
+      "error": 53,
+      "length": 743,
+      "stronger_than_period": false
+    },
+    {
+      "z": 7,
+      "h": 2,
+      "period": 210,
+      "density": "4/105",
+      "error": 95,
+      "length": 2494,
+      "stronger_than_period": false
+    },
+    {
+      "z": 7,
+      "h": 4,
+      "period": 210,
+      "density": "1/105",
+      "error": 179,
+      "length": 18796,
+      "stronger_than_period": false
+    },
+    {
+      "z": 7,
+      "h": 8,
+      "period": 210,
+      "density": "1/210",
+      "error": 209,
+      "length": 43891,
+      "stronger_than_period": false
+    },
+    {
+      "z": 13,
+      "h": 1,
+      "period": 30030,
+      "density": "9/182",
+      "error": 485,
+      "length": 9808,
+      "stronger_than_period": true
+    },
+    {
+      "z": 13,
+      "h": 2,
+      "period": 30030,
+      "density": "64/3003",
+      "error": 1535,
+      "length": 72026,
+      "stronger_than_period": false
+    },
+    {
+      "z": 13,
+      "h": 4,
+      "period": 30030,
+      "density": "16/5005",
+      "error": 6479,
+      "length": 2026713,
+      "stronger_than_period": false
+    },
+    {
+      "z": 13,
+      "h": 8,
+      "period": 30030,
+      "density": "4/15015",
+      "error": 20999,
+      "length": 78824997,
+      "stronger_than_period": false
+    },
+    {
+      "z": 23,
+      "h": 1,
+      "period": 223092870,
+      "density": "405/11362",
+      "error": 13121,
+      "length": 368101,
+      "stronger_than_period": true
+    },
+    {
+      "z": 23,
+      "h": 2,
+      "period": 223092870,
+      "density": "40960/3187041",
+      "error": 98303,
+      "length": 7648821,
+      "stronger_than_period": true
+    },
+    {
+      "z": 23,
+      "h": 4,
+      "period": 223092870,
+      "density": "6912/5311735",
+      "error": 1399679,
+      "length": 1075625570,
+      "stronger_than_period": false
+    },
+    {
+      "z": 23,
+      "h": 8,
+      "period": 223092870,
+      "density": "128/3187041",
+      "error": 20999999,
+      "length": 522873889164,
+      "stronger_than_period": false
+    },
+    {
+      "z": 47,
+      "h": 1,
+      "period": 614889782588491410,
+      "density": "51667875/2026008038",
+      "error": 9565937,
+      "length": 375100878,
+      "stronger_than_period": true
+    },
+    {
+      "z": 47,
+      "h": 2,
+      "period": 614889782588491410,
+      "density": "1468006400/190178175567",
+      "error": 402653183,
+      "length": 52163156598,
+      "stronger_than_period": true
+    },
+    {
+      "z": 47,
+      "h": 4,
+      "period": 614889782588491410,
+      "density": "32105299968/59272198051715",
+      "error": 65303470079,
+      "length": 120562032307586,
+      "stronger_than_period": true
+    },
+    {
+      "z": 47,
+      "h": 8,
+      "period": 614889782588491410,
+      "density": "18350080/2472316282371",
+      "error": 20999999999999,
+      "length": 2829341448636110997,
+      "stronger_than_period": false
+    },
+    {
+      "z": 97,
+      "h": 1,
+      "period": 2305567963945518424753102147331756070,
+      "density": "79463052554013253125/4149827258763332167682",
+      "error": 564859072961,
+      "length": 29498836289231,
+      "stronger_than_period": true
+    },
+    {
+      "z": 97,
+      "h": 2,
+      "period": 2305567963945518424753102147331756070,
+      "density": "60906896864837632000000/12166818171377710048549701",
+      "error": 422212465065983,
+      "length": 84341553363764085,
+      "stronger_than_period": true
+    },
+    {
+      "z": 97,
+      "h": 4,
+      "period": 2305567963945518424753102147331756070,
+      "density": "11724784503651091611648/45050417990616744894396815",
+      "error": 3948651115268014079,
+      "length": 15171995970292218874655,
+      "stronger_than_period": true
+    },
+    {
+      "z": 97,
+      "h": 8,
+      "period": 2305567963945518424753102147331756070,
+      "density": "40743777756774400000/21437785112776244122161243",
+      "error": 209999999999999999999999,
+      "length": 110493801054922602501859855493,
+      "stronger_than_period": true
+    }
+  ],
+  "scope": "Exact-rational finite checks; general counting proof is in REPORT.md"
+}

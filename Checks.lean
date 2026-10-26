@@ -1,0 +1,22 @@
+import GoldbachDeltaInduction
+
+#print axioms GoldbachDeltaInduction.representation_crosses_gap
+#print axioms GoldbachDeltaInduction.goldbach_iff_anchor
+#print axioms GoldbachDeltaInduction.goldbach_iff_odd_anchor
+#print axioms GoldbachDeltaInduction.central_goldbach
+#print axioms GoldbachDeltaInduction.residue_in_interval
+#print axioms GoldbachDeltaInduction.periodic_bound_iff
+#print axioms GoldbachDeltaInduction.prime_screened
+#print axioms GoldbachDeltaInduction.screened_complement_iff
+#print axioms GoldbachDeltaInduction.prime_complement_allowed
+#print axioms GoldbachDeltaInduction.bounded_sieve_bound_iff
+#print axioms GoldbachDeltaInduction.high_capacity_realized
+#print axioms GoldbachDeltaInduction.residue_count_error
+#print axioms GoldbachDeltaInduction.goldbach_iff_symmetric
+#print axioms GoldbachDeltaInduction.endpoint_symmetric_pair
+#print axioms GoldbachDeltaInduction.symmetric_pair_crosses_gap
+#print axioms GoldbachDeltaInduction.gap_delta_lower_bound
+#print axioms GoldbachDeltaInduction.shorter_central_offset_not_adjacent
+#print axioms GoldbachDeltaInduction.central_offset_minimal
+#print axioms GoldbachDeltaInduction.noncentral_offset_gt_half_gap
+#print axioms GoldbachDeltaInduction.cousin_centers_differ

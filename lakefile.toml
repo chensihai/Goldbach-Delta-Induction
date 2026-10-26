@@ -1,0 +1,11 @@
+name = "GoldbachDeltaInduction"
+version = "0.1.0"
+defaultTargets = ["GoldbachDeltaInduction"]
+packagesDir = "../mathlib4/.lake/packages"
+
+[[require]]
+name = "mathlib"
+path = "../mathlib4"
+
+[[lean_lib]]
+name = "GoldbachDeltaInduction"

@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "cases": 16,
+  "verified_tree_nodes": 748,
+  "protected_states": 21,
+  "scope": "16 supplied frontiers only; no claim for all prime gaps",
+  "sha256": {
+    "audit.py": "aa7fb6cd51bb82bcff67e2e9ef65243b01cb51961facc6482f932c43ea7220a4",
+    "certificates.py": "622a416363a4ce5cd2eb7836503199db2dc41dd62740ce7ad91936b48ac16d85",
+    "verify.py": "6ce82e4750ebdd75b9a53835419dc6f54f3801b1074cc23aff97dfc3945948e5",
+    "results.json": "ff10023a5a2d20f888975e9632416df2a94213e58815826f778d10c5f104b446",
+    "certificates.json": "2c7fd5e32e50f4315b20eac6330b25863b8e1cc87f3ff5f3c75358e73ed91848"
+  }
+}

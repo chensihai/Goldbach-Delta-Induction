@@ -41,3 +41,6 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.isolated_primes_force_offset_gt
 #print axioms GoldbachDeltaInduction.scaledMaynardTuple105_shape
 #print axioms GoldbachDeltaInduction.scaledMaynardTuple105_admissible
+#print axioms GoldbachDeltaInduction.exists_fixed_parameter
+#print axioms GoldbachDeltaInduction.windowOffsetWitness_mono
+#print axioms GoldbachDeltaInduction.windowOffsetWitness_has_exact_minimum

@@ -11,3 +11,5 @@ import GoldbachDeltaInduction.ExceptionalWindows
 import GoldbachDeltaInduction.WeightedExceptionDetection
 import GoldbachDeltaInduction.IsolatedOffsets
 import GoldbachDeltaInduction.MaynardTuple105
+import GoldbachDeltaInduction.FixedParameterExtraction
+import GoldbachDeltaInduction.InfiniteWindowSpecification

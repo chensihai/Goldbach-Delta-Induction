@@ -76,6 +76,7 @@ def main():
               'gbr63_infinite_result':'Conditional paper extraction from PrimeGaps186 commit 61340d0b74163003b32756bb16e91d9209a5e330, retaining its three inputs; external project not independently compiled here. Only finite weighted detection is in local Lean coverage.',
               'gbr64_infinite_result':'Conditional paper extension using uniform presieve residue estimates from the same PrimeGaps186 source and its three inputs; local Lean checks only the isolation-to-offset interface, not the full infinite construction.',
               'gbr65_infinite_result':'Unconditional paper deduction from published Maynard 2015 and Montgomery–Vaughan results, with some fixed even k between 2 and 600. Local Lean verifies the finite 105-tuple shape and admissibility, not the full analytic infinitude proof.',
+              'gbr66_scope':'Finite parameter extraction and exact-minimum logical interface are in Lean; the conditional universal induction compatibility bridge is open and is not an axiom.',
               'scope':'Listed Lean theorems, including finite exception counting, weighted detection and the isolation-to-offset interface, and explicitly scoped GB-R53–60 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}

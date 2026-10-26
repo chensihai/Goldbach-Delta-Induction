@@ -13,3 +13,4 @@ import GoldbachDeltaInduction.IsolatedOffsets
 import GoldbachDeltaInduction.MaynardTuple105
 import GoldbachDeltaInduction.FixedParameterExtraction
 import GoldbachDeltaInduction.InfiniteWindowSpecification
+import GoldbachDeltaInduction.UniversalSourceTransfer

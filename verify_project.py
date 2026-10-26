@@ -61,6 +61,12 @@ def main():
     assert bridge_summary['targets'] == bridge_summary['independently_checked_certificates'] == 114
     assert bridge_summary['symmetric_failures'] == [174, 336]
     assert bridge_summary['asymmetric_failures'] == []
+    transfer_output = run([sys.executable,'research/GBR68/source_transfer.py'])
+    transfer_summary = json.loads(transfer_output)
+    assert transfer_summary['all_finite_checks_passed']
+    assert transfer_summary['targets'] == 114
+    assert transfer_summary['universally_safe_source_certificates'] == 113
+    assert transfer_summary['no_source_in_declared_pool'] == [148]
     files = sources + [ROOT/'Checks.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',ROOT/'lake-manifest.json',ROOT/'verify_project.py']
     result = {'all_checks_passed':True,'lean_build':build.strip(),
               'checked_theorems':[name for name,_ in entries],
@@ -85,7 +91,9 @@ def main():
               'gbr66_scope':'Finite parameter extraction and exact-minimum logical interface are in Lean; the conditional universal induction compatibility bridge is open and is not an axiom.',
               'gbr67_bridge_checks':bridge_summary,
               'gbr67_scope':'Finite restricted rectangle certificates for noncentral centers<=250; compatible prime endpoints are tested directly, not deduced from induction. Higher-valued lower-k sources are a paper interface observation only.',
-              'scope':'Listed Lean theorems, including finite exception counting, weighted detection and the isolation-to-offset interface, and explicitly scoped GB-R53–60 and GB-R67 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.',
+              'gbr68_transfer_checks':transfer_summary,
+              'gbr68_scope':'Lean verifies a generic universal-witness transfer interface, B2 implies the single window 23..29, and transfer 92 to 96 fails; finite source pools do not prove the general induction step.',
+              'scope':'Listed Lean theorems and explicitly scoped GB-R53–60, GB-R67 and GB-R68 finite checks; no general Goldbach induction step or full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

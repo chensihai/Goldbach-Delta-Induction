@@ -44,3 +44,9 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.exists_fixed_parameter
 #print axioms GoldbachDeltaInduction.windowOffsetWitness_mono
 #print axioms GoldbachDeltaInduction.windowOffsetWitness_has_exact_minimum
+#print axioms GoldbachDeltaInduction.universalSourceTransfer_goldbach
+#print axioms GoldbachDeltaInduction.source44_safe_at
+#print axioms GoldbachDeltaInduction.source44_safe
+#print axioms GoldbachDeltaInduction.goldbach44_implies_window23_29
+#print axioms GoldbachDeltaInduction.B2_implies_window23_29
+#print axioms GoldbachDeltaInduction.not_universalSourceTransfer_92_96

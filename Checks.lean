@@ -52,3 +52,5 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.not_universalSourceTransfer_92_96
 #print axioms GoldbachDeltaInduction.all_source_pairs_blocked_mod30
 #print axioms GoldbachDeltaInduction.arbitrarily_large_blocked_goldbach_sources
+#print axioms GoldbachDeltaInduction.source_locally_admissible_iff_mod_three
+#print axioms GoldbachDeltaInduction.three_prime_transfer_exception

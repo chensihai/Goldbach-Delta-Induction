@@ -16,3 +16,4 @@ import GoldbachDeltaInduction.InfiniteWindowSpecification
 import GoldbachDeltaInduction.UniversalSourceTransfer
 import GoldbachDeltaInduction.ModularTransferObstruction
 import GoldbachDeltaInduction.ProgressionTransferObstruction
+import GoldbachDeltaInduction.SourceAdmissibility

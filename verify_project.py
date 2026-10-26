@@ -94,6 +94,7 @@ def main():
               'gbr68_transfer_checks':transfer_summary,
               'gbr68_scope':'Lean verifies a generic universal-witness transfer interface, B2 implies the single window 23..29, and transfer 92 to 96 fails; finite source pools do not prove the general induction step.',
               'gbr69_scope':'General mod-30 all-pairs obstruction and Dirichlet prime-centered source family are in Lean; unbounded source multiplicity with Goldbach targets is a paper deduction from fixed-modulus PNT and the published exception bound, not Lean proof coverage.',
+              'gbr70_scope':'Lean classifies all single-prime congruence obstructions for the three source-transfer forms at even M,N, and proves the prime-three exception. Forward-transfer equivalence is a paper corollary; local admissibility does not establish any prime existence or the general induction step.',
               'scope':'Listed Lean theorems, including the GB-R69 Dirichlet obstruction family, and explicitly scoped GB-R53–60, GB-R67 and GB-R68 finite checks. General Goldbach induction and the full GB-R62–65 analytic existence deductions are not in Lean proof coverage; universal Goldbach and infinitude for individually preassigned gaps remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}

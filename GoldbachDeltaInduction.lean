@@ -17,3 +17,4 @@ import GoldbachDeltaInduction.UniversalSourceTransfer
 import GoldbachDeltaInduction.ModularTransferObstruction
 import GoldbachDeltaInduction.ProgressionTransferObstruction
 import GoldbachDeltaInduction.SourceAdmissibility
+import GoldbachDeltaInduction.StructuralCountermodel

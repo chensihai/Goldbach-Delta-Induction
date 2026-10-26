@@ -21,3 +21,5 @@ import GoldbachDeltaInduction.StructuralCountermodel
 import GoldbachDeltaInduction.GlobalWindowReduction
 import GoldbachDeltaInduction.MinimalFailedWindow
 import GoldbachDeltaInduction.PrimeCenterTransferBarrier
+import GoldbachDeltaInduction.SquareWindowLocalization
+import GoldbachDeltaInduction.SquareDenseCountermodel

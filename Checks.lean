@@ -58,3 +58,10 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.StructuralCountermodel.full_gap_four_windows
 #print axioms GoldbachDeltaInduction.StructuralCountermodel.gap_six_failure
 #print axioms GoldbachDeltaInduction.StructuralCountermodel.infinitely_many_gap_four
+#print axioms GoldbachDeltaInduction.windowStatement_zero
+#print axioms GoldbachDeltaInduction.windowStatement_one
+#print axioms GoldbachDeltaInduction.windowStatement_two_iff_B2
+#print axioms GoldbachDeltaInduction.prime_bracket
+#print axioms GoldbachDeltaInduction.globalGoldbach_iff_all_windows
+#print axioms GoldbachDeltaInduction.conditional_window_induction
+#print axioms GoldbachDeltaInduction.global_failure_has_first_noncentral_window

@@ -18,3 +18,5 @@ import GoldbachDeltaInduction.ModularTransferObstruction
 import GoldbachDeltaInduction.ProgressionTransferObstruction
 import GoldbachDeltaInduction.SourceAdmissibility
 import GoldbachDeltaInduction.StructuralCountermodel
+import GoldbachDeltaInduction.GlobalWindowReduction
+import GoldbachDeltaInduction.MinimalFailedWindow

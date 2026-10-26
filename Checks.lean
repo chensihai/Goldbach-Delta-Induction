@@ -77,3 +77,7 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.SquareDenseCountermodel.gap_six_failure
 #print axioms GoldbachDeltaInduction.SquareDenseCountermodel.two_members_per_square_interval
 #print axioms GoldbachDeltaInduction.SquareDenseCountermodel.adjacent_pair_per_square_interval
+#print axioms GoldbachDeltaInduction.square_interval_prime_iff_screened
+#print axioms GoldbachDeltaInduction.primes_in_square_block_nine
+#print axioms GoldbachDeltaInduction.no_internal_square_pair_182
+#print axioms GoldbachDeltaInduction.exact_offset_minimum_91

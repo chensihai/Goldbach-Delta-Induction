@@ -23,3 +23,4 @@ import GoldbachDeltaInduction.MinimalFailedWindow
 import GoldbachDeltaInduction.PrimeCenterTransferBarrier
 import GoldbachDeltaInduction.SquareWindowLocalization
 import GoldbachDeltaInduction.SquareDenseCountermodel
+import GoldbachDeltaInduction.SquareReflectionObstruction

@@ -67,6 +67,10 @@ def main():
     assert transfer_summary['targets'] == 114
     assert transfer_summary['universally_safe_source_certificates'] == 113
     assert transfer_summary['no_source_in_declared_pool'] == [148]
+    source_audit_output = run([sys.executable,'research/GBR73/audit_sources.py'])
+    selected_source_audit = json.loads(source_audit_output)
+    assert selected_source_audit['all_checks_passed']
+    assert selected_source_audit['selected_certificates'] == 113
     files = sources + [ROOT/'Checks.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',ROOT/'lake-manifest.json',ROOT/'verify_project.py']
     result = {'all_checks_passed':True,'lean_build':build.strip(),
               'checked_theorems':[name for name,_ in entries],
@@ -97,6 +101,8 @@ def main():
               'gbr70_scope':'Lean classifies all single-prime congruence obstructions for the three source-transfer forms at even M,N, and proves the prime-three exception. Forward-transfer equivalence is a paper corollary; local admissibility does not establish any prime existence or the general induction step.',
               'gbr71_scope':'Lean verifies an explicitly abstract set with all gap-four windows, infinitely many adjacent gap-four pairs, a failed gap-six window, and representations for all even N>=108. It is not the set of actual primes and does not disprove the actual-prime implication B2 to B3. The finite-prefix-preserving generalization is paper only.',
               'gbr72_scope':'Lean connects all actual-prime windows to universal Goldbach, verifies the conditional strong-induction skeleton with its general induction step explicitly assumed, and extracts a least failed noncentral window under B2. It does not prove the general induction step or global Goldbach.',
+              'gbr73_selected_sources':selected_source_audit,
+              'gbr73_scope':'Lean proves a gap barrier for universally transferring prime-centered sources, including the same-window lower/upper endpoint sources. A fixed audit classifies 113 existing selected certificates into 46 prime centers, 17 adjacent-prime centers and 50 noncentral sources; this does not prove any general induction step or rule out alternative sources.',
               'scope':'Listed Lean theorems, including the GB-R69 Dirichlet obstruction family, and explicitly scoped GB-R53–60, GB-R67 and GB-R68 finite checks. General Goldbach induction and the full GB-R62–65 analytic existence deductions are not in Lean proof coverage; universal Goldbach and infinitude for individually preassigned gaps remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}

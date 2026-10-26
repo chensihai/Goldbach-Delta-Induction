@@ -20,3 +20,4 @@ import GoldbachDeltaInduction.SourceAdmissibility
 import GoldbachDeltaInduction.StructuralCountermodel
 import GoldbachDeltaInduction.GlobalWindowReduction
 import GoldbachDeltaInduction.MinimalFailedWindow
+import GoldbachDeltaInduction.PrimeCenterTransferBarrier

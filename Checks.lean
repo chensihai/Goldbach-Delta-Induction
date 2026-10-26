@@ -65,3 +65,6 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.globalGoldbach_iff_all_windows
 #print axioms GoldbachDeltaInduction.conditional_window_induction
 #print axioms GoldbachDeltaInduction.global_failure_has_first_noncentral_window
+#print axioms GoldbachDeltaInduction.prime_center_transfer_blocked_by_gap
+#print axioms GoldbachDeltaInduction.lower_endpoint_source_blocked
+#print axioms GoldbachDeltaInduction.upper_endpoint_source_blocked

@@ -1,0 +1,1194 @@
+{
+  "all_checks_passed": true,
+  "selected_certificates": 113,
+  "counts": {
+    "noncentral_window": 50,
+    "adjacent_center": 17,
+    "prime_center": 46
+  },
+  "scope": "Only the existing 113 selected R68 safe-source certificates; no claim that other sources are unavailable, and no new search range.",
+  "rows": [
+    {
+      "N": 48,
+      "M": 44,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 50,
+      "M": 44,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 54,
+      "M": 60,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        29,
+        31
+      ],
+      "direct_target_pair": [
+        31,
+        23
+      ]
+    },
+    {
+      "N": 56,
+      "M": 44,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 64,
+      "M": 76,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 66,
+      "M": 60,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        29,
+        31
+      ],
+      "direct_target_pair": [
+        29,
+        37
+      ]
+    },
+    {
+      "N": 70,
+      "M": 60,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        29,
+        31
+      ],
+      "direct_target_pair": [
+        29,
+        41
+      ]
+    },
+    {
+      "N": 72,
+      "M": 62,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        31,
+        31
+      ],
+      "direct_target_pair": [
+        31,
+        41
+      ]
+    },
+    {
+      "N": 96,
+      "M": 86,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        43,
+        43
+      ],
+      "direct_target_pair": [
+        43,
+        53
+      ]
+    },
+    {
+      "N": 98,
+      "M": 38,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        19,
+        19
+      ],
+      "direct_target_pair": [
+        19,
+        79
+      ]
+    },
+    {
+      "N": 102,
+      "M": 92,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 104,
+      "M": 86,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        43,
+        43
+      ],
+      "direct_target_pair": [
+        43,
+        61
+      ]
+    },
+    {
+      "N": 108,
+      "M": 94,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        47,
+        47
+      ],
+      "direct_target_pair": [
+        47,
+        61
+      ]
+    },
+    {
+      "N": 110,
+      "M": 92,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 114,
+      "M": 120,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        59,
+        61
+      ],
+      "direct_target_pair": [
+        61,
+        53
+      ]
+    },
+    {
+      "N": 116,
+      "M": 140,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 124,
+      "M": 30,
+      "kind": "adjacent_center",
+      "source_level": 2,
+      "automatic_source_pair": [
+        13,
+        17
+      ],
+      "direct_target_pair": [
+        17,
+        107
+      ]
+    },
+    {
+      "N": 126,
+      "M": 120,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        59,
+        61
+      ],
+      "direct_target_pair": [
+        59,
+        67
+      ]
+    },
+    {
+      "N": 130,
+      "M": 118,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        59,
+        59
+      ],
+      "direct_target_pair": [
+        59,
+        71
+      ]
+    },
+    {
+      "N": 132,
+      "M": 136,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 150,
+      "M": 144,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        71,
+        73
+      ],
+      "direct_target_pair": [
+        71,
+        79
+      ]
+    },
+    {
+      "N": 154,
+      "M": 160,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 156,
+      "M": 164,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 168,
+      "M": 164,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 170,
+      "M": 164,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 174,
+      "M": 164,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 176,
+      "M": 164,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 180,
+      "M": 176,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 182,
+      "M": 176,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 184,
+      "M": 202,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        101,
+        101
+      ],
+      "direct_target_pair": [
+        101,
+        83
+      ]
+    },
+    {
+      "N": 188,
+      "M": 128,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        61,
+        67
+      ],
+      "direct_target_pair": [
+        61,
+        127
+      ]
+    },
+    {
+      "N": 190,
+      "M": 178,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        89,
+        89
+      ],
+      "direct_target_pair": [
+        89,
+        101
+      ]
+    },
+    {
+      "N": 192,
+      "M": 176,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 228,
+      "M": 208,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 230,
+      "M": 212,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 232,
+      "M": 172,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        83,
+        89
+      ],
+      "direct_target_pair": [
+        83,
+        149
+      ]
+    },
+    {
+      "N": 234,
+      "M": 224,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 236,
+      "M": 224,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 238,
+      "M": 220,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 242,
+      "M": 212,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 244,
+      "M": 214,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        107,
+        107
+      ],
+      "direct_target_pair": [
+        107,
+        137
+      ]
+    },
+    {
+      "N": 246,
+      "M": 276,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        137,
+        139
+      ],
+      "direct_target_pair": [
+        137,
+        109
+      ]
+    },
+    {
+      "N": 248,
+      "M": 128,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        61,
+        67
+      ],
+      "direct_target_pair": [
+        67,
+        181
+      ]
+    },
+    {
+      "N": 250,
+      "M": 208,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 252,
+      "M": 226,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        113,
+        113
+      ],
+      "direct_target_pair": [
+        113,
+        139
+      ]
+    },
+    {
+      "N": 264,
+      "M": 254,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        127,
+        127
+      ],
+      "direct_target_pair": [
+        127,
+        137
+      ]
+    },
+    {
+      "N": 266,
+      "M": 206,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        103,
+        103
+      ],
+      "direct_target_pair": [
+        103,
+        163
+      ]
+    },
+    {
+      "N": 270,
+      "M": 256,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 272,
+      "M": 212,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 280,
+      "M": 268,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        131,
+        137
+      ],
+      "direct_target_pair": [
+        131,
+        149
+      ]
+    },
+    {
+      "N": 282,
+      "M": 272,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 284,
+      "M": 254,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        127,
+        127
+      ],
+      "direct_target_pair": [
+        127,
+        157
+      ]
+    },
+    {
+      "N": 286,
+      "M": 310,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 290,
+      "M": 308,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        151,
+        157
+      ],
+      "direct_target_pair": [
+        151,
+        139
+      ]
+    },
+    {
+      "N": 292,
+      "M": 58,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        29,
+        29
+      ],
+      "direct_target_pair": [
+        29,
+        263
+      ]
+    },
+    {
+      "N": 294,
+      "M": 304,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 296,
+      "M": 266,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 304,
+      "M": 220,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 306,
+      "M": 146,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        73,
+        73
+      ],
+      "direct_target_pair": [
+        73,
+        233
+      ]
+    },
+    {
+      "N": 310,
+      "M": 346,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        173,
+        173
+      ],
+      "direct_target_pair": [
+        173,
+        137
+      ]
+    },
+    {
+      "N": 312,
+      "M": 332,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 316,
+      "M": 196,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 318,
+      "M": 278,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        139,
+        139
+      ],
+      "direct_target_pair": [
+        139,
+        179
+      ]
+    },
+    {
+      "N": 322,
+      "M": 262,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        131,
+        131
+      ],
+      "direct_target_pair": [
+        131,
+        191
+      ]
+    },
+    {
+      "N": 324,
+      "M": 314,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        157,
+        157
+      ],
+      "direct_target_pair": [
+        157,
+        167
+      ]
+    },
+    {
+      "N": 336,
+      "M": 326,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        163,
+        163
+      ],
+      "direct_target_pair": [
+        163,
+        173
+      ]
+    },
+    {
+      "N": 338,
+      "M": 278,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        139,
+        139
+      ],
+      "direct_target_pair": [
+        139,
+        199
+      ]
+    },
+    {
+      "N": 342,
+      "M": 332,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 344,
+      "M": 212,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 348,
+      "M": 218,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        109,
+        109
+      ],
+      "direct_target_pair": [
+        109,
+        239
+      ]
+    },
+    {
+      "N": 350,
+      "M": 314,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        157,
+        157
+      ],
+      "direct_target_pair": [
+        157,
+        193
+      ]
+    },
+    {
+      "N": 354,
+      "M": 326,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        163,
+        163
+      ],
+      "direct_target_pair": [
+        163,
+        191
+      ]
+    },
+    {
+      "N": 356,
+      "M": 86,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        43,
+        43
+      ],
+      "direct_target_pair": [
+        43,
+        313
+      ]
+    },
+    {
+      "N": 364,
+      "M": 346,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        173,
+        173
+      ],
+      "direct_target_pair": [
+        173,
+        191
+      ]
+    },
+    {
+      "N": 366,
+      "M": 356,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 368,
+      "M": 338,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 370,
+      "M": 358,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        179,
+        179
+      ],
+      "direct_target_pair": [
+        179,
+        191
+      ]
+    },
+    {
+      "N": 374,
+      "M": 344,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 376,
+      "M": 166,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        83,
+        83
+      ],
+      "direct_target_pair": [
+        83,
+        293
+      ]
+    },
+    {
+      "N": 378,
+      "M": 358,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        179,
+        179
+      ],
+      "direct_target_pair": [
+        179,
+        199
+      ]
+    },
+    {
+      "N": 380,
+      "M": 344,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 400,
+      "M": 364,
+      "kind": "noncentral_window",
+      "source_level": 5
+    },
+    {
+      "N": 402,
+      "M": 332,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 404,
+      "M": 320,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        157,
+        163
+      ],
+      "direct_target_pair": [
+        163,
+        241
+      ]
+    },
+    {
+      "N": 406,
+      "M": 256,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 408,
+      "M": 394,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        197,
+        197
+      ],
+      "direct_target_pair": [
+        197,
+        211
+      ]
+    },
+    {
+      "N": 412,
+      "M": 70,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 414,
+      "M": 260,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 416,
+      "M": 206,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        103,
+        103
+      ],
+      "direct_target_pair": [
+        103,
+        313
+      ]
+    },
+    {
+      "N": 418,
+      "M": 292,
+      "kind": "noncentral_window",
+      "source_level": 5
+    },
+    {
+      "N": 420,
+      "M": 396,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        197,
+        199
+      ],
+      "direct_target_pair": [
+        197,
+        223
+      ]
+    },
+    {
+      "N": 424,
+      "M": 304,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 426,
+      "M": 356,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 428,
+      "M": 398,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        199,
+        199
+      ],
+      "direct_target_pair": [
+        199,
+        229
+      ]
+    },
+    {
+      "N": 430,
+      "M": 394,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        197,
+        197
+      ],
+      "direct_target_pair": [
+        197,
+        233
+      ]
+    },
+    {
+      "N": 432,
+      "M": 392,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 436,
+      "M": 106,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        53,
+        53
+      ],
+      "direct_target_pair": [
+        53,
+        383
+      ]
+    },
+    {
+      "N": 438,
+      "M": 398,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        199,
+        199
+      ],
+      "direct_target_pair": [
+        199,
+        239
+      ]
+    },
+    {
+      "N": 440,
+      "M": 398,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        199,
+        199
+      ],
+      "direct_target_pair": [
+        199,
+        241
+      ]
+    },
+    {
+      "N": 442,
+      "M": 502,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        251,
+        251
+      ],
+      "direct_target_pair": [
+        251,
+        191
+      ]
+    },
+    {
+      "N": 444,
+      "M": 334,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        167,
+        167
+      ],
+      "direct_target_pair": [
+        167,
+        277
+      ]
+    },
+    {
+      "N": 468,
+      "M": 458,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        229,
+        229
+      ],
+      "direct_target_pair": [
+        229,
+        239
+      ]
+    },
+    {
+      "N": 470,
+      "M": 482,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        241,
+        241
+      ],
+      "direct_target_pair": [
+        241,
+        229
+      ]
+    },
+    {
+      "N": 474,
+      "M": 314,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        157,
+        157
+      ],
+      "direct_target_pair": [
+        157,
+        317
+      ]
+    },
+    {
+      "N": 476,
+      "M": 326,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        163,
+        163
+      ],
+      "direct_target_pair": [
+        163,
+        313
+      ]
+    },
+    {
+      "N": 484,
+      "M": 454,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        227,
+        227
+      ],
+      "direct_target_pair": [
+        227,
+        257
+      ]
+    },
+    {
+      "N": 486,
+      "M": 456,
+      "kind": "adjacent_center",
+      "source_level": 1,
+      "automatic_source_pair": [
+        227,
+        229
+      ],
+      "direct_target_pair": [
+        229,
+        257
+      ]
+    },
+    {
+      "N": 488,
+      "M": 128,
+      "kind": "adjacent_center",
+      "source_level": 3,
+      "automatic_source_pair": [
+        61,
+        67
+      ],
+      "direct_target_pair": [
+        67,
+        421
+      ]
+    },
+    {
+      "N": 490,
+      "M": 478,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        239,
+        239
+      ],
+      "direct_target_pair": [
+        239,
+        251
+      ]
+    },
+    {
+      "N": 494,
+      "M": 464,
+      "kind": "noncentral_window",
+      "source_level": 2
+    },
+    {
+      "N": 496,
+      "M": 538,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        269,
+        269
+      ],
+      "direct_target_pair": [
+        269,
+        227
+      ]
+    },
+    {
+      "N": 498,
+      "M": 518,
+      "kind": "noncentral_window",
+      "source_level": 3
+    },
+    {
+      "N": 500,
+      "M": 458,
+      "kind": "prime_center",
+      "source_level": 0,
+      "automatic_source_pair": [
+        229,
+        229
+      ],
+      "direct_target_pair": [
+        229,
+        271
+      ]
+    }
+  ]
+}

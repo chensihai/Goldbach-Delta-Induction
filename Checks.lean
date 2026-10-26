@@ -20,3 +20,15 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.central_offset_minimal
 #print axioms GoldbachDeltaInduction.noncentral_offset_gt_half_gap
 #print axioms GoldbachDeltaInduction.cousin_centers_differ
+#print axioms GoldbachDeltaInduction.finiteAdjacent_iff
+#print axioms GoldbachDeltaInduction.radius_four_fails
+#print axioms GoldbachDeltaInduction.radius_eight_fails
+#print axioms GoldbachDeltaInduction.radius_sixteen_fails
+#print axioms GoldbachDeltaInduction.radius_thirtyTwo_fails
+#print axioms GoldbachDeltaInduction.radius_sixtyFour_fails
+#print axioms GoldbachDeltaInduction.radius_oneTwentyEight_fails
+#print axioms GoldbachDeltaInduction.proper_factor_not_prime
+#print axioms GoldbachDeltaInduction.factor_certificate_excludes
+#print axioms GoldbachDeltaInduction.radius_oneTwentyEight_forces_offset_ge_261
+#print axioms GoldbachDeltaInduction.gapRadiusBound_128_fails
+#print axioms GoldbachDeltaInduction.gapRadiusBound_le_128_fails

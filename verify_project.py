@@ -40,6 +40,9 @@ def main():
     historical_output = run([sys.executable,'research/GBR55/verify.py'])
     historical = json.loads(historical_output)
     assert historical['all_checks_passed']
+    offset_output = run([sys.executable,'research/GBR56/verify.py'])
+    offsets = json.loads(offset_output)
+    assert offsets['all_checks_passed']
     files = sources + [ROOT/'Checks.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',ROOT/'lake-manifest.json',ROOT/'verify_project.py']
     result = {'all_checks_passed':True,'lean_build':build.strip(),
               'checked_theorems':[name for name,_ in entries],
@@ -50,7 +53,9 @@ def main():
               'gbr54_independent_intervals':new_finite['independently_recomputed_intervals'],
               'gbr54_counting_intervals':new_finite['checked_counting_intervals'],
               'gbr55_historical_rows':historical['historical_rows'],
-              'scope':'Listed structural Lean theorems and explicitly scoped GB-R53/54/55 checks; Goldbach remains open.',
+              'gbr56_independent_targets':offsets['independently_recomputed_targets'],
+              'gbr56_factor_certificates':offsets['factor_certificates'],
+              'scope':'Listed Lean theorems and explicitly scoped GB-R53–56 checks; Goldbach remains open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

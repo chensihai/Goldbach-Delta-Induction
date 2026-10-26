@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "independently_recomputed_targets": 80818,
+  "independently_recomputed_intervals": 9591,
+  "factor_certificates": 6,
+  "excluded_offsets": 588,
+  "scope": "Full independent recomputation of the stated finite scope; no universal Goldbach or unbounded-ratio conclusion.",
+  "sha256": {
+    "noncentral_scan.py": "9c2ceae97b05a983735b636218df66b53de5c4eadde2d9bb172d75475c8d49a3",
+    "noncentral_results.json": "f4bf30ed03344a98cc38283fcc645c64a5e69a3a6951a12494d488162408b491",
+    "verify.py": "913f3fd2b6e7942db095a6bd670f48f182c145438a45a10a42920a73fb654041",
+    "generate_lean.py": "bf5cce6aac7720975bdba81622a73f9b36e58b25848f4222d901514209d031e8",
+    "factor_certificates.json": "c1888280e6a7ca1be0aa0d54e2a8fa2d4c0a0fbccbf166340d40949be62e4583"
+  }
+}

@@ -55,6 +55,12 @@ def main():
     cluster_output = run([sys.executable,'research/GBR60/verify.py'])
     cluster = json.loads(cluster_output)
     assert cluster['all_checks_passed']
+    bridge_output = run([sys.executable,'research/GBR67/bridge_search.py'])
+    bridge_summary = json.loads(bridge_output)
+    assert bridge_summary['all_finite_checks_passed']
+    assert bridge_summary['targets'] == bridge_summary['independently_checked_certificates'] == 114
+    assert bridge_summary['symmetric_failures'] == [174, 336]
+    assert bridge_summary['asymmetric_failures'] == []
     files = sources + [ROOT/'Checks.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',ROOT/'lake-manifest.json',ROOT/'verify_project.py']
     result = {'all_checks_passed':True,'lean_build':build.strip(),
               'checked_theorems':[name for name,_ in entries],
@@ -77,7 +83,9 @@ def main():
               'gbr64_infinite_result':'Conditional paper extension using uniform presieve residue estimates from the same PrimeGaps186 source and its three inputs; local Lean checks only the isolation-to-offset interface, not the full infinite construction.',
               'gbr65_infinite_result':'Unconditional paper deduction from published Maynard 2015 and Montgomery–Vaughan results, with some fixed even k between 2 and 600. Local Lean verifies the finite 105-tuple shape and admissibility, not the full analytic infinitude proof.',
               'gbr66_scope':'Finite parameter extraction and exact-minimum logical interface are in Lean; the conditional universal induction compatibility bridge is open and is not an axiom.',
-              'scope':'Listed Lean theorems, including finite exception counting, weighted detection and the isolation-to-offset interface, and explicitly scoped GB-R53–60 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.',
+              'gbr67_bridge_checks':bridge_summary,
+              'gbr67_scope':'Finite restricted rectangle certificates for noncentral centers<=250; compatible prime endpoints are tested directly, not deduced from induction. Higher-valued lower-k sources are a paper interface observation only.',
+              'scope':'Listed Lean theorems, including finite exception counting, weighted detection and the isolation-to-offset interface, and explicitly scoped GB-R53–60 and GB-R67 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

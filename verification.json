@@ -1,6 +1,6 @@
 {
   "all_checks_passed": true,
-  "lean_build": "✔ [3024/3027] Built GoldbachDeltaInduction.FixedParameterExtraction (4.9s)\n✔ [3025/3027] Built GoldbachDeltaInduction.InfiniteWindowSpecification (4.9s)\n✔ [3026/3027] Built GoldbachDeltaInduction (2.2s)\nBuild completed successfully (3027 jobs).",
+  "lean_build": "Build completed successfully (3027 jobs).",
   "checked_theorems": [
     "GoldbachDeltaInduction.representation_crosses_gap",
     "GoldbachDeltaInduction.goldbach_iff_anchor",
@@ -74,7 +74,18 @@
   "gbr64_infinite_result": "Conditional paper extension using uniform presieve residue estimates from the same PrimeGaps186 source and its three inputs; local Lean checks only the isolation-to-offset interface, not the full infinite construction.",
   "gbr65_infinite_result": "Unconditional paper deduction from published Maynard 2015 and Montgomery–Vaughan results, with some fixed even k between 2 and 600. Local Lean verifies the finite 105-tuple shape and admissibility, not the full analytic infinitude proof.",
   "gbr66_scope": "Finite parameter extraction and exact-minimum logical interface are in Lean; the conditional universal induction compatibility bridge is open and is not an axiom.",
-  "scope": "Listed Lean theorems, including finite exception counting, weighted detection and the isolation-to-offset interface, and explicitly scoped GB-R53–60 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.",
+  "gbr67_bridge_checks": {
+    "all_finite_checks_passed": true,
+    "targets": 114,
+    "symmetric_failures": [
+      174,
+      336
+    ],
+    "asymmetric_failures": [],
+    "independently_checked_certificates": 114
+  },
+  "gbr67_scope": "Finite restricted rectangle certificates for noncentral centers<=250; compatible prime endpoints are tested directly, not deduced from induction. Higher-valued lower-k sources are a paper interface observation only.",
+  "scope": "Listed Lean theorems, including finite exception counting, weighted detection and the isolation-to-offset interface, and explicitly scoped GB-R53–60 and GB-R67 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.",
   "sha256": {
     "Checks.lean": "cabdeabecea1fe2e0861d5ec694b9a36c2be15c821c589bbe7b8a804dbfbbd0b",
     "GoldbachDeltaInduction/Basic.lean": "f0a3e5164f021061cab205260205fe1e798106629bb1197de10a253fe99e2548",
@@ -97,6 +108,6 @@
     "lake-manifest.json": "dc5981937386924e47fcc6163fb7b456270c91c64b7a7960e62a6ea2e864bfde",
     "lakefile.toml": "f9d1716cd7d4c25df183cfd4d97a8534af72fa06baf400e2a1437547c67e57a3",
     "lean-toolchain": "cdbc6c372a2b37ad94430a6cec69cedfa4d36f255bfd968773fd91bf7a1746bf",
-    "verify_project.py": "25ce26604d66740defe812df37ae50b3747027dc0e3b2d0098e9b2f945ee7ffe"
+    "verify_project.py": "99fcd9b028058eadab04f9d0397b35e2877feab227041bd26b19b52a0169cdcc"
   }
 }

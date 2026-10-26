@@ -73,7 +73,8 @@ def main():
               'gbr60_crt_demonstrations':len(cluster['finite_crt_demonstrations']),
               'gbr60_infinite_result':'Paper proof using published Maynard theorem; not part of Lean proof coverage.',
               'gbr62_infinite_result':'Paper proof using published Maynard and Montgomery–Vaughan theorems; only finite exception counting is in Lean proof coverage.',
-              'scope':'Listed Lean theorems, including GB-R62 finite exception counting, and explicitly scoped GB-R53–60 finite checks; universal Goldbach and specified gap-four infinitude remain open.',
+              'gbr63_infinite_result':'Conditional paper extraction from PrimeGaps186 commit 61340d0b74163003b32756bb16e91d9209a5e330, retaining its three inputs; external project not independently compiled here. Only finite weighted detection is in local Lean coverage.',
+              'scope':'Listed Lean theorems, including GB-R62 finite exception counting and GB-R63 finite weighted detection, and explicitly scoped GB-R53–60 finite checks; no full analytic infinitude proof in Lean. Universal Goldbach and specified gap-four infinitude remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

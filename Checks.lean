@@ -37,3 +37,4 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.gap_four_window_excludes_larger_gap_center
 #print axioms GoldbachDeltaInduction.badStarts_card_le
 #print axioms GoldbachDeltaInduction.exists_good_window
+#print axioms GoldbachDeltaInduction.exists_weighted_prime_detection

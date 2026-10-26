@@ -1,6 +1,6 @@
 {
   "all_checks_passed": true,
-  "lean_build": "✔ [3017/3019] Built GoldbachDeltaInduction.RadiusConjecture (2.5s)\n✔ [3018/3019] Built GoldbachDeltaInduction (2.1s)\nBuild completed successfully (3019 jobs).",
+  "lean_build": "Build completed successfully (3019 jobs).",
   "checked_theorems": [
     "GoldbachDeltaInduction.representation_crosses_gap",
     "GoldbachDeltaInduction.goldbach_iff_anchor",
@@ -49,7 +49,8 @@
   "gbr55_historical_rows": 1906977,
   "gbr56_independent_targets": 80818,
   "gbr56_factor_certificates": 6,
-  "scope": "Listed Lean theorems and explicitly scoped GB-R53–56 checks; Goldbach remains open.",
+  "gbr57_finite_predecessor_checks": 1782,
+  "scope": "Listed Lean theorems and explicitly scoped GB-R53–57 checks; Goldbach remains open.",
   "sha256": {
     "Checks.lean": "88c2f9a7df3ad365664e61f04215ecea618aa9dff196c8503010c569135d2bcd",
     "GoldbachDeltaInduction/Basic.lean": "f0a3e5164f021061cab205260205fe1e798106629bb1197de10a253fe99e2548",
@@ -64,6 +65,6 @@
     "lake-manifest.json": "dc5981937386924e47fcc6163fb7b456270c91c64b7a7960e62a6ea2e864bfde",
     "lakefile.toml": "f9d1716cd7d4c25df183cfd4d97a8534af72fa06baf400e2a1437547c67e57a3",
     "lean-toolchain": "cdbc6c372a2b37ad94430a6cec69cedfa4d36f255bfd968773fd91bf7a1746bf",
-    "verify_project.py": "ad3494be2e52bfbf74c8e94f32fcb4c5b96a5f356aebb7d167eb092a8a2db48e"
+    "verify_project.py": "12165780f2f6fda060b8f9ac42ebcc8212e0dab4f0131ec94aebf6fa18a480de"
   }
 }

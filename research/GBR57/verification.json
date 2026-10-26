@@ -1,0 +1,67 @@
+{
+  "all_checks_passed": true,
+  "representations_38": [
+    [
+      7,
+      31
+    ],
+    [
+      19,
+      19
+    ]
+  ],
+  "representations_40": [
+    [
+      3,
+      37
+    ],
+    [
+      11,
+      29
+    ],
+    [
+      17,
+      23
+    ]
+  ],
+  "monotone_lifts_from_38": [],
+  "monotone_lifts_from_36": [
+    [
+      [
+        7,
+        29
+      ],
+      [
+        11,
+        29
+      ]
+    ],
+    [
+      [
+        13,
+        23
+      ],
+      [
+        17,
+        23
+      ]
+    ],
+    [
+      [
+        17,
+        19
+      ],
+      [
+        17,
+        23
+      ]
+    ]
+  ],
+  "finite_predecessor_checks": 1782,
+  "finite_strict_predecessor_checks": 1782,
+  "scope": "Exact listed counterexample and finite criterion checks through endpoint 37; general criterion has a paper proof; no new prime-existence input.",
+  "sha256": {
+    "AstraNotes.md": "2880ad96fbaf0d38a58bd93097427d1098f00c293674c6168f69b592f7440bb1",
+    "verify.py": "1a38e948fbd556b0b9e1f2da389c2feeb4ca4a24416077b917c5e472ee63a93f"
+  }
+}

@@ -72,7 +72,8 @@ def main():
               'gbr59_group_degrees':[g['degree'] for g in literature['alternating_group_graphs']],
               'gbr60_crt_demonstrations':len(cluster['finite_crt_demonstrations']),
               'gbr60_infinite_result':'Paper proof using published Maynard theorem; not part of Lean proof coverage.',
-              'scope':'Listed Lean theorems and explicitly scoped GB-R53–60 finite checks; Goldbach remains open.',
+              'gbr62_infinite_result':'Paper proof using published Maynard and Montgomery–Vaughan theorems; only finite exception counting is in Lean proof coverage.',
+              'scope':'Listed Lean theorems, including GB-R62 finite exception counting, and explicitly scoped GB-R53–60 finite checks; universal Goldbach and specified gap-four infinitude remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

@@ -7,3 +7,4 @@ import GoldbachDeltaInduction.OffsetRadiusExamples
 import GoldbachDeltaInduction.RadiusConjecture
 import GoldbachDeltaInduction.ClusterResidueObstruction
 import GoldbachDeltaInduction.WindowSeparation
+import GoldbachDeltaInduction.ExceptionalWindows

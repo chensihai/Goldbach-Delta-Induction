@@ -50,3 +50,5 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.goldbach44_implies_window23_29
 #print axioms GoldbachDeltaInduction.B2_implies_window23_29
 #print axioms GoldbachDeltaInduction.not_universalSourceTransfer_92_96
+#print axioms GoldbachDeltaInduction.all_source_pairs_blocked_mod30
+#print axioms GoldbachDeltaInduction.arbitrarily_large_blocked_goldbach_sources

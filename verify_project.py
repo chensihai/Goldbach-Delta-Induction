@@ -93,7 +93,8 @@ def main():
               'gbr67_scope':'Finite restricted rectangle certificates for noncentral centers<=250; compatible prime endpoints are tested directly, not deduced from induction. Higher-valued lower-k sources are a paper interface observation only.',
               'gbr68_transfer_checks':transfer_summary,
               'gbr68_scope':'Lean verifies a generic universal-witness transfer interface, B2 implies the single window 23..29, and transfer 92 to 96 fails; finite source pools do not prove the general induction step.',
-              'scope':'Listed Lean theorems and explicitly scoped GB-R53–60, GB-R67 and GB-R68 finite checks; no general Goldbach induction step or full analytic infinitude proof in Lean. Universal Goldbach and infinitude for individually preassigned gaps remain open.',
+              'gbr69_scope':'General mod-30 all-pairs obstruction and Dirichlet prime-centered source family are in Lean; unbounded source multiplicity with Goldbach targets is a paper deduction from fixed-modulus PNT and the published exception bound, not Lean proof coverage.',
+              'scope':'Listed Lean theorems, including the GB-R69 Dirichlet obstruction family, and explicitly scoped GB-R53–60, GB-R67 and GB-R68 finite checks. General Goldbach induction and the full GB-R62–65 analytic existence deductions are not in Lean proof coverage; universal Goldbach and infinitude for individually preassigned gaps remain open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

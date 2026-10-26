@@ -72,3 +72,7 @@ Lean 版本為 `leanprover/lean4:v4.34.0-rc1`。沿用相鄰 `../mathlib4`，其
 ## GB-R58：恢復真正的 k=2 來源
 
 `research/GBR58/REPORT.md` 核對新找到的 `../data` 中針對中心 p+1 的原始 δ 程式，以及本地可讀歷史討論。這補足 R55 的來源範圍，但仍未找到 k=2 全稱存在性證明。三個小範圍獨立重現確認舊分段篩漏掉小素數；另以精確代數指出 δ=3 的 quad 模式只有三個不同素數條件，應與其他四項模式分開。原 `DeltaMod3.lean` 亦實測未通過整檔建置。獨立核驗入口為 `/usr/bin/python3.11 research/GBR58/audit.py`，需要 GCC 及原參考檔；本輪未修改歷史來源，也未新增 Lean 模組或大型掃描。
+
+## GB-R59：核對外部存在性聲明
+
+`research/GBR59/REPORT.md` 記錄三項原始文獻與主目標的量詞對照。對其中群論論文的 Theorem 2.9，完整循環型枚舉確認 A₁₂⊊A₁₃ 的質數圖只新增孤立頂點 13，沒有新邊，構成該引理的反例。這阻止沿用其證明鏈，沒有否定 12=5+7，也沒有證明一般 Goldbach。重現入口為 `/usr/bin/python3.11 research/GBR59/verify.py`；未新增 Lean 或外部存在性假設。

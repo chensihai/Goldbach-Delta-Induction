@@ -1,0 +1,146 @@
+{
+  "all_checks_passed": true,
+  "alternating_group_graphs": [
+    {
+      "degree": 12,
+      "cycle_types": 77,
+      "even_cycle_types": 40,
+      "element_orders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        20,
+        21,
+        30,
+        35
+      ],
+      "vertices": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "degree": 13,
+      "cycle_types": 101,
+      "even_cycle_types": 52,
+      "element_orders": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        20,
+        21,
+        24,
+        28,
+        30,
+        35
+      ],
+      "vertices": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    }
+  ],
+  "strict_subgraph": true,
+  "added_vertices": [
+    13
+  ],
+  "added_edges": [],
+  "theorem_2_9_counterexample": {
+    "n": 6,
+    "even_number": 12,
+    "forced_p": 9,
+    "forced_p_is_prime": false
+  },
+  "actual_goldbach_representation": [
+    5,
+    7
+  ],
+  "scope": "Complete cycle-type enumeration for A_12 and A_13, cross-checked with the support-size edge criterion. Refutes the cited Theorem 2.9 as stated; does not refute its Goldbach corollary or prove Goldbach generally.",
+  "sha256": {
+    "REPORT.md": "34df889747e6ae9c714f8c898ba0b0bd5f5c1065414229bab6e57f93dde8ee3d",
+    "verify.py": "c8c4261a744a395a67280b5baa6eaf5a75a2a89856db5822ad23ef36a260b844"
+  }
+}

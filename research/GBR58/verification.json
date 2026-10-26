@@ -1,0 +1,192 @@
+{
+  "all_checks_passed": true,
+  "source_root": "/home/simon/Projects/prime/data",
+  "source_files": {
+    "segmented_sieve_delta.c": {
+      "bytes": 5231,
+      "sha256": "acd396955c8216fdc2a5eeee3f1b272fcfe5c0f24b68354b75d37fb5050c8805"
+    },
+    "DeltaMod3.lean": {
+      "bytes": 3200,
+      "sha256": "81329a99322ea9dd5f7887e34b0f155b0d8693dd122b8c7178b6f8ed0230875a"
+    },
+    "delta_toolkit/delta_toolkit_v2/delta_scan.cpp": {
+      "bytes": 3539,
+      "sha256": "ef63811791ecf7476d117951404c3f1919d34cb25a35b303adb89ee8a78ba715"
+    },
+    "delta_toolkit/delta_toolkit_v2/analyze_patterns.py": {
+      "bytes": 3509,
+      "sha256": "6145ef1d6ed36fc00b1859238000d7173dd939a51aa3545bceba9f634bcefeca"
+    },
+    "under_weak_conjecture_topic/delta_min_cousin_centers.py": {
+      "bytes": 4005,
+      "sha256": "cb28083ad912f79c390c5b6442cb93479e446260f4d44fcbe304876eb4fcf38c"
+    }
+  },
+  "historical_segmented_sieve_runs": [
+    {
+      "limit": 100,
+      "small_prime_table_limit": 11,
+      "expected_pairs_including_p3": 8,
+      "expected_pairs_with_p_gt_3": 7,
+      "historical_pairs": 6,
+      "missing_pairs": [
+        3,
+        7
+      ],
+      "expected_counts": {
+        "3": 4,
+        "9": 4,
+        "15": 3,
+        "21": 3,
+        "27": 2,
+        "33": 2,
+        "39": 2,
+        "45": 1
+      },
+      "historical_counts": {
+        "3": 3,
+        "9": 4,
+        "15": 3,
+        "21": 3,
+        "27": 2,
+        "33": 2,
+        "39": 2,
+        "45": 1
+      }
+    },
+    {
+      "limit": 1000,
+      "small_prime_table_limit": 32,
+      "expected_pairs_including_p3": 41,
+      "expected_pairs_with_p_gt_3": 40,
+      "historical_pairs": 37,
+      "missing_pairs": [
+        3,
+        7,
+        13,
+        19
+      ],
+      "expected_counts": {
+        "3": 15,
+        "9": 9,
+        "15": 10,
+        "21": 12,
+        "27": 10,
+        "33": 9,
+        "39": 11,
+        "45": 12
+      },
+      "historical_counts": {
+        "3": 12,
+        "9": 7,
+        "15": 10,
+        "21": 12,
+        "27": 10,
+        "33": 9,
+        "39": 11,
+        "45": 12
+      }
+    },
+    {
+      "limit": 10000,
+      "small_prime_table_limit": 101,
+      "expected_pairs_including_p3": 203,
+      "expected_pairs_with_p_gt_3": 202,
+      "historical_pairs": 194,
+      "missing_pairs": [
+        3,
+        7,
+        13,
+        19,
+        37,
+        43,
+        67,
+        79,
+        97
+      ],
+      "expected_counts": {
+        "3": 55,
+        "9": 23,
+        "15": 25,
+        "21": 35,
+        "27": 33,
+        "33": 21,
+        "39": 34,
+        "45": 41
+      },
+      "historical_counts": {
+        "3": 51,
+        "9": 18,
+        "15": 21,
+        "21": 32,
+        "27": 31,
+        "33": 19,
+        "39": 31,
+        "45": 40
+      }
+    }
+  ],
+  "quantifier_example": {
+    "p_bound": 100,
+    "deltas": [
+      3,
+      9
+    ],
+    "column_counts": {
+      "3": 4,
+      "9": 4
+    },
+    "missed_p": 67,
+    "successful_later_delta": 15
+  },
+  "delta_3_pattern": [
+    0,
+    2,
+    6
+  ],
+  "delta_3_distinct_conditions": 3,
+  "delta_3_local_factors": [
+    {
+      "prime": 2,
+      "corrected": "4",
+      "historical": "8",
+      "historical_over_corrected": "2"
+    },
+    {
+      "prime": 3,
+      "corrected": "9/8",
+      "historical": "27/16",
+      "historical_over_corrected": "3/2"
+    },
+    {
+      "prime": 5,
+      "corrected": "25/32",
+      "historical": "125/128",
+      "historical_over_corrected": "5/4"
+    },
+    {
+      "prime": 7,
+      "corrected": "49/54",
+      "historical": "343/324",
+      "historical_over_corrected": "7/6"
+    },
+    {
+      "prime": 11,
+      "corrected": "121/125",
+      "historical": "1331/1250",
+      "historical_over_corrected": "11/10"
+    },
+    {
+      "prime": 13,
+      "corrected": "845/864",
+      "historical": "10985/10368",
+      "historical_over_corrected": "13/12"
+    }
+  ],
+  "historical_lean": {
+    "exit_code": 1,
+    "diagnostic": "/home/simon/Projects/prime/data/DeltaMod3.lean:43:61: error: unsolved goals\nδ : ℤ\nh₁ : (2 + δ) % 3 ≠ 0\nh₂ : (2 - δ) % 3 ≠ 0\nhcases : δ % 3 = 0 ∨ δ % 3 = 1 ∨ δ % 3 = 2\n⊢ 3 ∣ δ\n3 : ℤ\n3 ∣ 6 : Prop\nInt.dvd_iff_emod_eq_zero {a b : ℤ} : a ∣ b ↔ b % a = 0\nInt.add_emod (a b n : ℤ) : (a + b) % n = (a % n + b % n) % n"
+  },
+  "scope": "Three small historical-C executions checked by independent trial division; exact listed local factors and quantifier example; historical Lean module failure reproduced. No full historical data reproduction, EH implication, asymptotic prediction, or general Goldbach proof."
+}

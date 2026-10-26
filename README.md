@@ -76,3 +76,9 @@ Lean 版本為 `leanprover/lean4:v4.34.0-rc1`。沿用相鄰 `../mathlib4`，其
 ## GB-R59：核對外部存在性聲明
 
 `research/GBR59/REPORT.md` 記錄三項原始文獻與主目標的量詞對照。對其中群論論文的 Theorem 2.9，完整循環型枚舉確認 A₁₂⊊A₁₃ 的質數圖只新增孤立頂點 13，沒有新邊，構成該引理的反例。這阻止沿用其證明鏈，沒有否定 12=5+7，也沒有證明一般 Goldbach。重現入口為 `/usr/bin/python3.11 research/GBR59/verify.py`；未新增 Lean 或外部存在性假設。
+
+## GB-R60：全部固定線性半徑界都失敗
+
+`research/GBR60/REPORT.md` 從 Maynard 已發表的無條件聚簇定理與 CRT 推出：存在固定 L，對任意 R，均有任意大的相鄰奇素數 p<q、6≤q−p≤L，使中心 p+1 的 δ≤R 範圍內沒有對稱素數對。因此，對每個固定自然數 C，`GapRadiusBound C` 都為假。這是完整紙面推導，並經 Astra 檢查；未宣稱文獻首創。它不保證較遠表示存在，也未判定 gap=4 的原始問題。
+
+Luna 已用 Lean 核驗 `ClusterResidueObstruction.lean` 的末端整數同餘矛盾；完整 Maynard 與無窮族構造未形式化。`research/GBR60/verify.py` 僅核對小型 CRT 示範，未將示範 K 當作達到聚簇門檻。新提供的三個原始 δ 線程亦有量詞對照，其中所列三組對稱候選族模 5 不可容許。完整驗證入口 `verify_project.py` 現已包括 R58–R60 的有限檢查，並保留紙面證明與 Lean 覆蓋範圍的區別。

@@ -46,6 +46,15 @@ def main():
     transport_output = run([sys.executable,'research/GBR57/verify.py'])
     transport = json.loads(transport_output)
     assert transport['all_checks_passed']
+    source_output = run([sys.executable,'research/GBR58/audit.py'])
+    source_audit = json.loads(source_output)
+    assert source_audit['all_checks_passed']
+    literature_output = run([sys.executable,'research/GBR59/verify.py'])
+    literature = json.loads(literature_output)
+    assert literature['all_checks_passed']
+    cluster_output = run([sys.executable,'research/GBR60/verify.py'])
+    cluster = json.loads(cluster_output)
+    assert cluster['all_checks_passed']
     files = sources + [ROOT/'Checks.lean',ROOT/'lakefile.toml',ROOT/'lean-toolchain',ROOT/'lake-manifest.json',ROOT/'verify_project.py']
     result = {'all_checks_passed':True,'lean_build':build.strip(),
               'checked_theorems':[name for name,_ in entries],
@@ -59,7 +68,11 @@ def main():
               'gbr56_independent_targets':offsets['independently_recomputed_targets'],
               'gbr56_factor_certificates':offsets['factor_certificates'],
               'gbr57_finite_predecessor_checks':transport['finite_predecessor_checks'],
-              'scope':'Listed Lean theorems and explicitly scoped GB-R53–57 checks; Goldbach remains open.',
+              'gbr58_historical_c_runs':len(source_audit['historical_segmented_sieve_runs']),
+              'gbr59_group_degrees':[g['degree'] for g in literature['alternating_group_graphs']],
+              'gbr60_crt_demonstrations':len(cluster['finite_crt_demonstrations']),
+              'gbr60_infinite_result':'Paper proof using published Maynard theorem; not part of Lean proof coverage.',
+              'scope':'Listed Lean theorems and explicitly scoped GB-R53–60 finite checks; Goldbach remains open.',
               'sha256':{str(path.relative_to(ROOT)):hashlib.sha256(path.read_bytes()).hexdigest()
                         for path in sorted(files)}}
     (ROOT/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

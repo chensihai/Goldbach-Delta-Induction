@@ -1,0 +1,114 @@
+{
+  "all_checks_passed": true,
+  "finite_crt_demonstrations": [
+    {
+      "demonstration_k": 2,
+      "radius": 0,
+      "b": 12,
+      "diameter": 12,
+      "blocked_shifts": 15,
+      "modulus_bits": 94,
+      "checked_local_primes": 26,
+      "true_factor_checks": 45,
+      "symmetric_support_checks": 2
+    },
+    {
+      "demonstration_k": 2,
+      "radius": 1,
+      "b": 12,
+      "diameter": 12,
+      "blocked_shifts": 17,
+      "modulus_bits": 107,
+      "checked_local_primes": 28,
+      "true_factor_checks": 51,
+      "symmetric_support_checks": 4
+    },
+    {
+      "demonstration_k": 2,
+      "radius": 7,
+      "b": 12,
+      "diameter": 12,
+      "blocked_shifts": 29,
+      "modulus_bits": 202,
+      "checked_local_primes": 44,
+      "true_factor_checks": 87,
+      "symmetric_support_checks": 16
+    },
+    {
+      "demonstration_k": 2,
+      "radius": 16,
+      "b": 12,
+      "diameter": 12,
+      "blocked_shifts": 47,
+      "modulus_bits": 352,
+      "checked_local_primes": 65,
+      "true_factor_checks": 141,
+      "symmetric_support_checks": 34
+    },
+    {
+      "demonstration_k": 3,
+      "radius": 0,
+      "b": 36,
+      "diameter": 72,
+      "blocked_shifts": 74,
+      "modulus_bits": 617,
+      "checked_local_primes": 104,
+      "true_factor_checks": 222,
+      "symmetric_support_checks": 3
+    },
+    {
+      "demonstration_k": 3,
+      "radius": 1,
+      "b": 36,
+      "diameter": 72,
+      "blocked_shifts": 76,
+      "modulus_bits": 636,
+      "checked_local_primes": 106,
+      "true_factor_checks": 228,
+      "symmetric_support_checks": 6
+    },
+    {
+      "demonstration_k": 3,
+      "radius": 7,
+      "b": 36,
+      "diameter": 72,
+      "blocked_shifts": 88,
+      "modulus_bits": 752,
+      "checked_local_primes": 120,
+      "true_factor_checks": 264,
+      "symmetric_support_checks": 24
+    },
+    {
+      "demonstration_k": 3,
+      "radius": 16,
+      "b": 36,
+      "diameter": 72,
+      "blocked_shifts": 106,
+      "modulus_bits": 930,
+      "checked_local_primes": 141,
+      "true_factor_checks": 318,
+      "symmetric_support_checks": 51
+    }
+  ],
+  "old_three_pair_family": [
+    -14,
+    -8,
+    -2,
+    0,
+    4,
+    10,
+    16
+  ],
+  "old_family_residues_mod_5": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "scope": "Toy finite CRT, proper factors, local admissibility and symmetric-support checks only. Toy K is not certified to meet Maynard threshold; no computed infinite prime family or full analytic Lean proof.",
+  "sha256": {
+    "REPORT.md": "a64867b31d7690a138dcd3700940840b97454aaa8114d248c7c525ff2ddbb15d",
+    "verify.py": "0ee689d860e94fb2b7955ec39614b5872ba0a0e92d877dd4a48199a43cb20741"
+  }
+}

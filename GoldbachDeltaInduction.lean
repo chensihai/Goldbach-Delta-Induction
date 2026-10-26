@@ -5,3 +5,4 @@ import GoldbachDeltaInduction.IntervalResidues
 import GoldbachDeltaInduction.DeltaGap
 import GoldbachDeltaInduction.OffsetRadiusExamples
 import GoldbachDeltaInduction.RadiusConjecture
+import GoldbachDeltaInduction.ClusterResidueObstruction

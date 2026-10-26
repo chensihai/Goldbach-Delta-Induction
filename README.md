@@ -82,3 +82,9 @@ Lean 版本為 `leanprover/lean4:v4.34.0-rc1`。沿用相鄰 `../mathlib4`，其
 `research/GBR60/REPORT.md` 從 Maynard 已發表的無條件聚簇定理與 CRT 推出：存在固定 L，對任意 R，均有任意大的相鄰奇素數 p<q、6≤q−p≤L，使中心 p+1 的 δ≤R 範圍內沒有對稱素數對。因此，對每個固定自然數 C，`GapRadiusBound C` 都為假。這是完整紙面推導，並經 Astra 檢查；未宣稱文獻首創。它不保證較遠表示存在，也未判定 gap=4 的原始問題。
 
 Luna 已用 Lean 核驗 `ClusterResidueObstruction.lean` 的末端整數同餘矛盾；完整 Maynard 與無窮族構造未形式化。`research/GBR60/verify.py` 僅核對小型 CRT 示範，未將示範 K 當作達到聚簇門檻。新提供的三個原始 δ 線程亦有量詞對照，其中所列三組對稱候選族模 5 不可容許。完整驗證入口 `verify_project.py` 現已包括 R58–R60 的有限檢查，並保留紙面證明與 Lean 覆蓋範圍的區別。
+
+## GB-R61：原稿與必要條件的 Lean 驗證
+
+`research/GBR61/REPORT.md` 記錄使用者提供的原始 DOCX、已定位的 Lean 檔，以及左側 δ 假設與完整 k=2 窗口假設的區別。原 `delta_mod_three` 的主要證明前綴已獨立編譯通過，證明必要同餘條件；不是 δ 存在性。原稿的 EH 條件聲明仍只有未補全的證明綱要。
+
+新增 `WindowSeparation.lean` 證明：較大相鄰素數間隙內的中心不能同時落入較短的素數端點窗口；因此把 k=2 當作條件基礎後，仍需要真正的表示轉移。這不否定其他歸納方法，也未加入 k=2 或 EH 公理。原稿與歷史來源均未修改。

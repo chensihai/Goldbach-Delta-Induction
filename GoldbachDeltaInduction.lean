@@ -6,3 +6,4 @@ import GoldbachDeltaInduction.DeltaGap
 import GoldbachDeltaInduction.OffsetRadiusExamples
 import GoldbachDeltaInduction.RadiusConjecture
 import GoldbachDeltaInduction.ClusterResidueObstruction
+import GoldbachDeltaInduction.WindowSeparation

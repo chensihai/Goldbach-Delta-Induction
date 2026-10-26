@@ -33,3 +33,5 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.gapRadiusBound_128_fails
 #print axioms GoldbachDeltaInduction.gapRadiusBound_le_128_fails
 #print axioms GoldbachDeltaInduction.cluster_residue_sum_obstruction
+#print axioms GoldbachDeltaInduction.prime_window_containing_center_not_shorter
+#print axioms GoldbachDeltaInduction.gap_four_window_excludes_larger_gap_center

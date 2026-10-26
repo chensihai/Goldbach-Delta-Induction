@@ -39,3 +39,5 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.exists_good_window
 #print axioms GoldbachDeltaInduction.exists_weighted_prime_detection
 #print axioms GoldbachDeltaInduction.isolated_primes_force_offset_gt
+#print axioms GoldbachDeltaInduction.scaledMaynardTuple105_shape
+#print axioms GoldbachDeltaInduction.scaledMaynardTuple105_admissible

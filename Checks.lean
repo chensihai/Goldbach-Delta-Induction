@@ -38,3 +38,4 @@ import GoldbachDeltaInduction
 #print axioms GoldbachDeltaInduction.badStarts_card_le
 #print axioms GoldbachDeltaInduction.exists_good_window
 #print axioms GoldbachDeltaInduction.exists_weighted_prime_detection
+#print axioms GoldbachDeltaInduction.isolated_primes_force_offset_gt

@@ -9,3 +9,4 @@ import GoldbachDeltaInduction.ClusterResidueObstruction
 import GoldbachDeltaInduction.WindowSeparation
 import GoldbachDeltaInduction.ExceptionalWindows
 import GoldbachDeltaInduction.WeightedExceptionDetection
+import GoldbachDeltaInduction.IsolatedOffsets
